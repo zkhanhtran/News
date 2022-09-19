@@ -1,0 +1,15 @@
+platform :ios, '12.0'
+use_frameworks!
+inhibit_all_warnings! # hide warning from pods
+
+target 'News' do
+pod 'Kingfisher', '~> 7.0'
+pod 'Alamofire', '~> 5.0'
+pod 'IQKeyboardManagerSwift', '~> 6.5.0'
+pod 'RxSwift', '6.5.0'
+pod 'RxCocoa', '6.5.0'
+
+    target 'NewsTests' do
+        inherit! :search_paths
+    end
+end
