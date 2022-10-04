@@ -1,2 +1,2 @@
 # News
-This is demo for test
+This is demo for test News
